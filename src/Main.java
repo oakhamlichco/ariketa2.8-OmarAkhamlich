@@ -28,7 +28,7 @@ public class Main
             case 3:
                 emaitza = zenb1 * zenb2;
                 break;
-            /*case 4:
+            case 4:
                 if (zenb2 != 0) {
                     emaitza = zenb1 / zenb2;
                 } else {
@@ -38,7 +38,7 @@ public class Main
                 break;
             default:
                 System.out.println("Aukera ez da egokia.");
-                return;*/
+                return;
         }
         System.out.println("Emaitza: " + emaitza);
     }
