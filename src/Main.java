@@ -25,10 +25,10 @@ public class Main
             case 2:
                 emaitza = zenb1 - zenb2;
                 break;
-            /*case 3:
+            case 3:
                 emaitza = zenb1 * zenb2;
                 break;
-            case 4:
+            /*case 4:
                 if (zenb2 != 0) {
                     emaitza = zenb1 / zenb2;
                 } else {
