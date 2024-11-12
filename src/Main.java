@@ -32,7 +32,7 @@ public class Main
                 if (zenb2 != 0) {
                     emaitza = zenb1 / zenb2;
                 } else {
-                    System.out.println("Errorea: Ezinezkoa da zeroz zatitzea.");
+                    System.out.println("Errorea: Ezinezkoa da zeroz zatitzea."); //Ezin da zati 0 egin.
                     return;
                 }
                 break;
