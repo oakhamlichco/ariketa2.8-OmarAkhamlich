@@ -36,6 +36,12 @@ public class Main
                     return;
                 }
                 break;
+            case 5:
+                emaitza = Math.sqrt(zenb1);
+                break;
+            case 6:
+                emaitza = Math.pow(zenb1, zenb2);
+                break;
             default:
                 System.out.println("Aukera ez da egokia.");
                 return;
