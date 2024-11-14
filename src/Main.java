@@ -42,10 +42,19 @@ public class Main
             case 6:
                 emaitza = Math.pow(zenb1, zenb2);
                 break;
+            case 7:
+                emaitza = faktoriala((int) zenb1);
+                break;
             default:
                 System.out.println("Aukera ez da egokia.");
                 return;
         }
         System.out.println("Emaitza: " + emaitza);
     }
+
+    public static long faktoriala(int n) {
+        if (n == 0) return 1;
+        return n * faktoriala(n - 1);
+    }
+
 }
