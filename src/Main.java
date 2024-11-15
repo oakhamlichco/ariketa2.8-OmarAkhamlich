@@ -46,7 +46,7 @@ public class Main
                 emaitza = faktoriala((int) zenb1);
                 break;
             case 8:
-                  if (zenbakia == 0) {
+                  if (zenbakiaaaa == 0) {
                             System.out.println("Errorea: Ezin da 0 zenbakiaren reciprokoa kalkulatu.");
                         } else {
                             System.out.println("Reciprokoa: " + (1 / zenbakia));
