@@ -45,6 +45,13 @@ public class Main
             case 7:
                 emaitza = faktoriala((int) zenb1);
                 break;
+            case 8:
+                  if (zenbakia == 0) {
+                            System.out.println("Errorea: Ezin da 0 zenbakiaren reciprokoa kalkulatu.");
+                        } else {
+                            System.out.println("Reciprokoa: " + (1 / zenbakia));
+                        }
+                break;
             default:
                 System.out.println("Aukera ez da egokia.");
                 return;
